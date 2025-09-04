@@ -8,7 +8,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postinstall": "netlify-plugin-nextjs",
     "start": "next start",
     "lint": "next lint"
   },
@@ -35,7 +34,6 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@netlify/plugin-nextjs": "^4.45.0",
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
